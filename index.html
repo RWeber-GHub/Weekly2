@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="Weekly2.css">
+</head>
+<body>
+    <h1><strong>Welcome to Rock Paper Scissors!</strong></h1>
+
+    <div class="buttonContainer">
+        <button value="Rock" class="rpsSelector">Rock</button>
+        <button value="Paper" class="rpsSelector">Paper</button>
+        <button value="Scissors" class="rpsSelector">Scissors</button>
+        <button value="Reset" class="rpsSelector" onclick="resetGame()">Reset</button>
+    </div>
+
+    <div class="choices">
+        <div class="text">Your Choice: <div id="yourChoice"></div></div>
+        <div class="text">Computer Choice: <div id="comChoice"></div></div>
+        <div class="text">Result: <div id="result"></div></div>
+    </div>
+
+    <div class="scores">
+        <div class="text">Your Score: <div id="yourScore">0</div></div>
+        <div class="text">Computer Score: <div id="computerScore">0</div></div>
+        <div class="text">Number of Ties: <div id="ties">0</div></div>
+    </div>
+
+    <script src="Weekly2.js"></script>
+</body>
+</html>
